@@ -16,8 +16,8 @@ class writeMysql(object):
             host='127.0.0.1',
             port=3306,
             user='root',  #使用自己的用户名
-            passwd='MIfeng888!',  # 使用自己的密码
-            db='zyc',  # 数据库名
+            passwd='mima',  # 使用自己的密码
+            db='数据库名',  # 数据库名
             charset='utf8mb4'
         )
         self.cur = self.client.cursor()

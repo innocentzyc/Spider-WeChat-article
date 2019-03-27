@@ -12,6 +12,7 @@ from WeChat.items import WechatItem
 
 class WechatArticleSpider(scrapy.Spider):
     name = 'wechat_article'
+    # 允许的域名 爬取这个文章的时候因为域名不是搜狗 所以需要注释掉 不然会无法访问
     # allowed_domains = ['weixin.sogou.com']
     wechat_item = WechatItem()
 

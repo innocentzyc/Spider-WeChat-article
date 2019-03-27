@@ -68,6 +68,7 @@ DOWNLOADER_MIDDLEWARES = {
 
 
 # 存储数据开启
+# 暂时数据库坏了   无法存储数据
 ITEM_PIPELINES = {
    'WeChat.pipelines.writeMysql': 300,
 }
